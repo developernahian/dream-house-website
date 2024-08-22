@@ -38,6 +38,7 @@
             colors: {
               primary: "#212121",
               secondary: "#494949",
+              teritary: "#737373",
               body: "rgb(30, 30, 30)",
               foot: "rgb(28, 28, 28)",
               green_primary: "rgb(171, 239, 95)",
@@ -56,26 +57,206 @@
     </script>
 
     <!-- todo ========== Custom CSS ========== -->
-    <style>
-
-    </style>
-
+    <style></style>
   </head>
-  <body>
+  <body class="font-Manrope">
     <!-- todo ========== Header ========== -->
-    <header>
+    <header class="bg-gradient-to-b from-[#F4F4F4] to-[#FEFEFE]">
+      <!-- todo ========== Navbar ========== -->
+      <nav class="w-11/12 mx-auto pt-2">
+        <div class="navbar">
+          <div
+            class="w-full lg:w-1/2 justify-between lg:justify-start flex-row-reverse lg:flex-row"
+          >
+            <!-- <div class="lg:w-1/2 lg:justify-start w-full justify-between flex-row-reverse lg:flex-row bg-red-300"> -->
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="-ml-40 menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <li><a>Home</a></li>
 
+                <li><a>Service</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+
+            <!-- todo ========== Logo ========== -->
+            <div class="flex items-center gap-2">
+              <div
+                class="flex items-center justify-center bg-green_primary w-9 h-9 rounded-full"
+              >
+                <!-- <i class="fa-solid fa-arrow-turn-up"></i> -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2.3"
+                  stroke="currentColor"
+                  class="size-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                  />
+                </svg>
+              </div>
+              <h2 class="text-3xl sm:text-4xl font-extrabold">Rinterio</h2>
+            </div>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-lg">
+              <li><a class="font-extrabold text-secondary">Home</a></li>
+              <li><a class="text-teritary">Service</a></li>
+              <li><a class="text-teritary">Portfolio</a></li>
+              <li><a class="text-teritary">Blogs</a></li>
+              <li><a class="text-teritary">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <!-- todo ========== Navbar End (desktop) ========== -->
+          <div class="navbar-end gap-4 hidden lg:flex">
+            <!-- todo   shopping -->
+            <div
+              class="flex items-center justify-center w-12 h-12 rounded-full bg-white border-2 border-[#E9E9E9]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                />
+              </svg>
+            </div>
+            <!-- todo search -->
+            <div
+              class="flex items-center justify-center w-12 h-12 rounded-full bg-white border-2 border-[#E9E9E9]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                />
+              </svg>
+            </div>
+
+            <!-- todo right button -->
+            <a
+              class="btn text-xl font-extrabold bg-green_primary border-green_primary rounded-3xl"
+              >Book Consult
+              <div
+                class="flex items-center justify-center bg-[#1C1C1C] text-white w-8 h-8 rounded-full"
+              >
+                <!-- <i class="fa-solid fa-arrow-turn-up"></i> -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2.3"
+                  stroke="currentColor"
+                  class="size-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                  />
+                </svg>
+              </div>
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- todo ========== Banner Section ========== -->
+      <section class="w-11/12 mx-auto -mt-2">
+        <div>
+          <img class="mx-auto px-7" src="./assets/banner.png" alt="">
+        </div>
+
+        <div class="">
+          <h2 class="mt-3 w-10/12 md:w-9/12 mx-auto text-center text-3xl md:text-6xl font-extrabold text-primary sm:leading-tight">A barn house of this design has a striking appearance</h2>
+          <p class="mt-3 text-secondary text-center md:w-7/12 sm:mx-auto">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents, and
+            large windows that flood the space with natural light.
+          </p>
+
+
+          <!-- todo Button -->
+          <div class="pt-5 pb-14">
+            <!-- 123 start -->
+            <div class="w-full sm:w-52 mx-auto">
+              <button
+              class="w-full justify-center flex gap-2 py-3 bg-green_secondary border-green_primary rounded-[32px] mx-auto items-center" 
+            >
+              <span class="text-xl font-bold">View Details</span>
+  
+              <div class="flex rounded-full h-8 w-8 justify-center items-center bg-green_primary">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2.3"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                  />
+                </svg>
+              </div>
+            </button>
+            </div>
+            <!-- 123 end -->
+          </div>
+
+        </div>
+
+      </section>
     </header>
 
     <!-- todo ========== Main ========== -->
-    <main>
-
-    </main>
+    <main></main>
 
     <!-- todo ========== Footer ========== -->
-    <footer>
-        
-    </footer>
-    
+    <footer></footer>
   </body>
 </html>
+
