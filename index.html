@@ -39,7 +39,7 @@
               primary: "#212121",
               secondary: "#494949",
               teritary: "#737373",
-              body: "rgb(30, 30, 30)",
+              body: "#F4F4F4",
               foot: "rgb(28, 28, 28)",
               green_primary: "rgb(171, 239, 95)",
               green_secondary: "rgba(171, 239, 95, 0.5)",
@@ -68,7 +68,6 @@
           <div
             class="w-full lg:w-1/2 justify-between lg:justify-start flex-row-reverse lg:flex-row"
           >
-            <!-- <div class="lg:w-1/2 lg:justify-start w-full justify-between flex-row-reverse lg:flex-row bg-red-300"> -->
             <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                 <svg
@@ -205,58 +204,158 @@
       <!-- todo ========== Banner Section ========== -->
       <section class="w-11/12 mx-auto -mt-2">
         <div>
-          <img class="mx-auto px-7" src="./assets/banner.png" alt="">
+          <img class="mx-auto px-7" src="./assets/banner.png" alt="" />
         </div>
 
         <div class="">
-          <h2 class="mt-3 w-10/12 md:w-9/12 mx-auto text-center text-3xl md:text-6xl font-extrabold text-primary sm:leading-tight">A barn house of this design has a striking appearance</h2>
+          <h2
+            class="mt-3 w-10/12 md:w-9/12 mx-auto text-center text-3xl md:text-6xl font-extrabold text-primary sm:leading-tight"
+          >
+            A barn house of this design has a striking appearance
+          </h2>
           <p class="mt-3 text-secondary text-center md:w-7/12 sm:mx-auto">
             The barn house captivates with its blend of rustic charm and modern
             sophistication, featuring weathered wood, sleek metal accents, and
             large windows that flood the space with natural light.
           </p>
 
-
           <!-- todo Button -->
           <div class="pt-5 pb-14">
             <!-- 123 start -->
             <div class="w-full sm:w-52 mx-auto">
               <button
-              class="w-full justify-center flex gap-2 py-3 bg-green_secondary border-green_primary rounded-[32px] mx-auto items-center" 
+                class="w-full justify-center flex gap-2 py-3 bg-green_secondary border-green_primary rounded-[32px] mx-auto items-center hover:bg-[#D2D2D2]"
+              >
+                <span class="text-xl font-bold">View Details</span>
+
+                <div
+                  class="flex rounded-full h-8 w-8 justify-center items-center bg-green_primary"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2.3"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                    />
+                  </svg>
+                </div>
+              </button>
+            </div>
+            <!-- 123 end -->
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- todo ========== Main ========== -->
+    <main>
+      <!-- todo ========== Liveable space Section ========== -->
+      <section class="bg-body">
+        <div
+          class="w-11/12 mx-auto flex flex-col md:flex-row py-8 md:py-20 justify-between"
+        >
+          <!-- todo left side -->
+          <div class="relative md:w-[48%]">
+            <img
+              class="hidden md:flex absolute -left-10 -top-14"
+              src="./assets/vector.png"
+              alt=""
+            />
+
+            <button
+              class="mx-auto md:ml-0 flex font-bold text-secondary py-2 px-4 rounded-3xl gap-1 bg-white hover:bg-black hover:text-white"
             >
-              <span class="text-xl font-bold">View Details</span>
-  
-              <div class="flex rounded-full h-8 w-8 justify-center items-center bg-green_primary">
+              <!-- todo svg -->
+              <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke-width="2.3"
+                  stroke-width="1.5"
                   stroke="currentColor"
                   class="size-6"
                 >
                   <path
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                    d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
                   />
                 </svg>
               </div>
+              <span>About Us</span>
             </button>
+
+            <!-- todo head-title and paragraph -->
+            <div class="text-center md:text-left">
+              <h2 class="font-bold text-2xl md:text-5xl text-primary pt-4">
+                We design thoughtful, <br />
+                liveable spaces
+              </h2>
+              <p class="text-secondary pt-5">
+                The barn house captivates with its blend of rustic charm and
+                modern sophistication, featuring weathered wood, sleek metal
+                accents.
+              </p>
             </div>
-            <!-- 123 end -->
+
+            <!-- todo card one div -->
+            <div
+              class="flex px-4 mt-4 py-4 items-center gap-6 rounded-[18px] bg-white"
+            >
+              <img class="" src="./assets/commercial.png" alt="" />
+              <div class="py-5">
+                <h4 class="font-extrabold text-xl text-secondary">
+                  Commercial
+                </h4>
+                <p class="font-medium pt-2 text-teritary">
+                  The barn house captivates with its blend of rustic charm and
+                  modern.
+                </p>
+              </div>
+            </div>
+            <!-- todo card two div -->
+            <div
+              class="flex px-4 py-4 my-4 items-center gap-6 rounded-[18px] bg-white"
+            >
+              <img class="" src="./assets/residential.png" alt="" />
+              <div class="py-5">
+                <h4 class="font-extrabold text-xl text-secondary">
+                  Residential
+                </h4>
+                <p class="font-medium pt-2 text-teritary">
+                  The barn house captivates with its blend of rustic charm and
+                  modern.
+                </p>
+              </div>
+            </div>
           </div>
+          <!-- todo right side -->
 
+          <img
+            class="sm:h-[535px] md:h-[535px] md:w-[48%]"
+            src="./assets/rectangle.png"
+            alt=""
+          />
         </div>
-
       </section>
-    </header>
 
-    <!-- todo ========== Main ========== -->
-    <main></main>
+
+      <!-- todo ========== Work Process Section ========== -->
+       
+
+
+    </main>
 
     <!-- todo ========== Footer ========== -->
     <footer></footer>
   </body>
 </html>
 
+Nahian nahian Nahian
