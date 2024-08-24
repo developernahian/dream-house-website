@@ -71,7 +71,7 @@
             <div class="dropdown">
               <div tabindex="0" role="button" class="lg:hidden">
                 <div
-                  class="flex justify-center items-center h-12 w-12 rounded-full bg-white border-2 border-[#E9E9E9 hover:bg-[#E9E9E9]"
+                  class="flex justify-center items-center h-10 w-10 rounded-full bg-white border-2 border-[#E9E9E9 hover:bg-[#E9E9E9]"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -107,7 +107,6 @@
               <div
                 class="flex items-center justify-center bg-green_primary w-9 h-9 rounded-full"
               >
-                <!-- <i class="fa-solid fa-arrow-turn-up"></i> -->
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -263,12 +262,12 @@
       <!-- todo ========== Liveable space Section ========== -->
       <section class="bg-body">
         <div
-          class="w-11/12 mx-auto flex flex-col md:flex-row py-8 md:py-20 justify-between"
+          class="w-11/12 md:w-10/12 mx-auto flex flex-col md:flex-row py-8 md:py-20 justify-between"
         >
           <!-- todo left side -->
           <div class="relative md:w-[48%]">
             <img
-              class="hidden md:flex absolute -left-10 -top-14"
+              class="hidden md:flex absolute -left-11 -top-14"
               src="./assets/vector.png"
               alt=""
             />
@@ -353,7 +352,7 @@
       <!-- todo ========== Stat Section ========== -->
       <section class="bg-body">
         <div
-          class="w-11/12 mx-auto bg-white rounded-3xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4"
+          class="w-11/12 md:w-10/12 mx-auto bg-white rounded-3xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4"
         >
           <!-- todo One -->
           <div class="flex flex-col items-center py-8 space-y-2">
@@ -449,7 +448,7 @@
       <!-- todo ========== Works Process Section ========== -->
       <section class="bg-body">
         <!-- todo section button title paragraph -->
-        <div class="w-11/12 mx-auto py-24">
+        <div class="w-11/12 md:w-10/12 mx-auto py-24">
           <!-- ********** extra div for button H P center ******** -->
           <div class="flex flex-col items-center">
             <!-- todo button main div -->
@@ -551,8 +550,8 @@
 
       <!-- todo ========== Portfolio Section ========== -->
       <section class="bg-body lg:bg-white">
-        <div class="w-11/12 mx-auto py-24">
-          <!-- todo section button title paragraph -->
+        <div class="w-11/12 md:w-10/12 mx-auto py-24">
+          <!-- todo button title paragraph -->
           <div class="flex flex-col items-center">
             <!-- todo button main div -->
             <div>
@@ -576,14 +575,14 @@
                     />
                   </svg>
                 </div>
-                <span>How we works</span>
+                <span>Explore our Latest works</span>
               </button>
             </div>
 
             <h2
               class="text-3xl md:text-5xl text-primary font-extrabold pt-5 text-center"
             >
-              Our Works Process
+              Our Latest Portfolio
             </h2>
             <p
               class="text-secondary pt-6 text-center lg:w-[55%] leading-relaxed"
@@ -601,7 +600,9 @@
               class="lg:col-span-8 bg-white flex flex-col lg:flex-row border rounded-2xl p-5"
             >
               <img src="./assets/img1.png" class="" alt="" />
-              <div class="space-y-7 flex flex-col justify-center pl-6">
+              <div
+                class="space-y-3 sm:space-y-7 flex flex-col justify-center pl-0 lg:pl-6 pt-4 lg:pt-0"
+              >
                 <h6 class="font-extrabold text-xl lg:text-2xl text-scondary">
                   Commercial
                 </h6>
@@ -659,7 +660,9 @@
               class="lg:col-span-6 bg-white flex flex-col lg:flex-row border rounded-2xl p-5"
             >
               <img src="./assets/img4.png" class="w-full" alt="" />
-              <div class="space-y-7 flex flex-col justify-center pl-6">
+              <div
+                class="space-y-3 sm:space-y-7 flex flex-col justify-center pl-0 lg:pl-6 pt-4 lg:pt-0"
+              >
                 <h6 class="font-extrabold text-xl lg:text-2xl text-scondary">
                   Commercial
                 </h6>
@@ -705,6 +708,212 @@
             </div>
           </div>
           <!-- todo Grid container END -->
+        </div>
+      </section>
+
+      <!--  todo ========== Article Section ========== -->
+      <section class="bg-body">
+        <div class="w-11/12 md:w-10/12 mx-auto py-24">
+          <!-- todo button heading and title -->
+          <div class="flex flex-col items-center">
+            <!-- todo button main div -->
+            <div>
+              <button
+                class="mx-auto md:ml-0 flex font-bold text-secondary py-2 px-4 rounded-3xl gap-1 bg-green_teritary hover:bg-[#212121] hover:text-white"
+              >
+                <!-- todo svg -->
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                    />
+                  </svg>
+                </div>
+                <span>Rinterio News</span>
+              </button>
+            </div>
+
+            <h2
+              class="text-3xl md:text-5xl text-primary font-extrabold pt-5 text-center"
+            >
+              Read Our Articles and News
+            </h2>
+            <p
+              class="text-secondary pt-6 text-center lg:w-[55%] leading-relaxed"
+            >
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
+          </div>
+
+          <!-- todo All 3 Card main div -->
+          <div class="flex flex-col md:flex-row justify-between gap-7 pt-8">
+            <!-- todo Card 1 -->
+            <div class="bg-white p-6 rounded-3xl">
+              <figure>
+                <img class="w-full" src="./assets/article1.png" alt="image" />
+              </figure>
+              <div class="pt-4 space-y-3">
+                <!-- date  -->
+                <div
+                  class="flex flex-row gap-4 text-teritary font-medium text-base"
+                >
+                  <i class="fa-regular fa-calendar pt-1"></i>
+                  <span>August 17, 2024</span>
+                  <i class="fa-regular fa-user pt-1"></i>
+                  <span>By Admin</span>
+                </div>
+
+                <h3 class="font-extrabold text-xl text-secondary">
+                  How to choose the furniture right of your home.
+                </h3>
+                <p class="text-base text-teritary font-medium">
+                  The barn house captivates with its blend of rustic charm and
+                  modern.
+                </p>
+                <!--todo button -->
+                <div class="flex gap-2">
+                  <a
+                    class="font-extrabold text-lg text-primary hover:underline"
+                    href="#"
+                    >Read More</a
+                  >
+                  <div
+                    class="flex rounded-full h-8 w-8 justify-center items-center bg-green_primary"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2.3"
+                      stroke="currentColor"
+                      class="size-5"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- todo Card 2 -->
+            <div class="bg-white p-6 rounded-3xl">
+              <figure>
+                <img class="w-full" src="./assets/article1.png" alt="image" />
+              </figure>
+              <div class="pt-4 space-y-3">
+                <!-- date  -->
+                <div
+                  class="flex flex-row gap-4 text-teritary font-medium text-base"
+                >
+                  <i class="fa-regular fa-calendar pt-1"></i>
+                  <span>August 17, 2024</span>
+                  <i class="fa-regular fa-user pt-1"></i>
+                  <span>By Admin</span>
+                </div>
+
+                <h3 class="font-extrabold text-xl text-secondary">
+                  How to choose the furniture right of your home.
+                </h3>
+                <p class="text-base text-teritary font-medium">
+                  The barn house captivates with its blend of rustic charm and
+                  modern.
+                </p>
+                <!--todo button -->
+                <div class="flex gap-2">
+                  <a
+                    class="font-extrabold text-lg text-primary hover:underline"
+                    href="#"
+                    >Read More</a
+                  >
+                  <div
+                    class="flex rounded-full h-8 w-8 justify-center items-center bg-green_primary"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2.3"
+                      stroke="currentColor"
+                      class="size-5"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- todo Card 3 -->
+            <div class="bg-white p-6 rounded-3xl">
+              <figure>
+                <img class="w-full" src="./assets/article1.png" alt="image" />
+              </figure>
+              <div class="pt-4 space-y-3">
+                <!-- date  -->
+                <div
+                  class="flex flex-row gap-4 text-teritary font-medium text-base"
+                >
+                  <i class="fa-regular fa-calendar pt-1"></i>
+                  <span>August 17, 2024</span>
+                  <i class="fa-regular fa-user pt-1"></i>
+                  <span>By Admin</span>
+                </div>
+
+                <h3 class="font-extrabold text-xl text-secondary">
+                  How to choose the furniture right of your home.
+                </h3>
+                <p class="text-base text-teritary font-medium">
+                  The barn house captivates with its blend of rustic charm and
+                  modern.
+                </p>
+                <!--todo button -->
+                <div class="flex gap-2">
+                  <a
+                    class="font-extrabold text-lg text-primary hover:underline"
+                    href="#"
+                    >Read More</a
+                  >
+                  <div
+                    class="flex rounded-full h-8 w-8 justify-center items-center bg-green_primary"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2.3"
+                      stroke="currentColor"
+                      class="size-5"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
