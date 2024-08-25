@@ -183,7 +183,6 @@
               <div
                 class="flex items-center justify-center bg-[#1C1C1C] text-white w-8 h-8 rounded-full"
               >
-                <!-- <i class="fa-solid fa-arrow-turn-up"></i> -->
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -759,14 +758,14 @@
           <!-- todo All 3 Card main div -->
           <div class="flex flex-col md:flex-row justify-between gap-7 pt-8">
             <!-- todo Card 1 -->
-            <div class="bg-white p-6 rounded-3xl">
+            <div class="bg-white p-5 rounded-3xl">
               <figure>
                 <img class="w-full" src="./assets/article1.png" alt="image" />
               </figure>
               <div class="pt-4 space-y-3">
                 <!-- date  -->
                 <div
-                  class="flex flex-row gap-3 text-teritary font-medium text-sm"
+                  class="flex flex-row gap-4 text-teritary font-medium text-sm"
                 >
                   <i class="fa-regular fa-calendar pt-1"></i>
                   <span>May 17, 2024</span>
@@ -811,17 +810,17 @@
             </div>
 
             <!-- todo Card 2 -->
-            <div class="bg-white p-6 rounded-3xl">
+            <div class="bg-white p-5 rounded-3xl">
               <figure>
-                <img class="w-full" src="./assets/article3.png" alt="image" />
+                <img class="w-full" src="./assets/article2.png" alt="image" />
               </figure>
               <div class="pt-4 space-y-3">
                 <!-- date  -->
                 <div
-                  class="flex flex-row gap-3 text-teritary font-medium text-sm"
+                  class="flex flex-row gap-4 text-teritary font-medium text-sm"
                 >
                   <i class="fa-regular fa-calendar pt-1"></i>
-                  <span>May 17, 2024</span>
+                  <span>June 13, 2024</span>
                   <i class="fa-regular fa-user pt-1"></i>
                   <span>By Admin</span>
                 </div>
@@ -863,17 +862,17 @@
             </div>
 
             <!-- todo Card 3 -->
-            <div class="bg-white p-6 rounded-3xl">
+            <div class="bg-white p-5 rounded-3xl">
               <figure>
                 <img class="w-full" src="./assets/article3.png" alt="image" />
               </figure>
               <div class="pt-4 space-y-3">
                 <!-- date  -->
                 <div
-                  class="flex flex-row gap-3 text-teritary font-medium text-sm"
+                  class="flex flex-row gap-4 text-teritary font-medium text-sm"
                 >
                   <i class="fa-regular fa-calendar pt-1"></i>
-                  <span>May 17, 2024</span>
+                  <span>July 11, 2024</span>
                   <i class="fa-regular fa-user pt-1"></i>
                   <span>By Admin</span>
                 </div>
@@ -914,6 +913,122 @@
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <!-- todo ========== Contact section ========== -->
+      <section class="bg-papper bg-center bg-no-repeat bg-cover mt-3">
+        <div class="w-11/12 md:w-10/12 mx-auto py-24">
+          <!-- todo button heading and title -->
+          <div class="flex flex-col items-center">
+            <!-- todo button main div -->
+            <div>
+              <button
+                class="mx-auto md:ml-0 flex font-bold text-secondary py-2 px-4 rounded-3xl gap-1 bg-green_teritary hover:bg-[#212121] hover:text-white"
+              >
+                <!-- todo svg -->
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                    />
+                  </svg>
+                </div>
+                <span>Let’s Connect</span>
+              </button>
+            </div>
+
+            <h2
+              class="text-3xl md:text-5xl text-primary font-extrabold pt-5 text-center"
+            >
+              Let’s Discuss Next Project
+            </h2>
+            <p
+              class="text-secondary pt-6 text-center lg:w-[55%] leading-relaxed"
+            >
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
+          </div>
+
+          <!-- todo input start -->
+          <div class="pt-8">
+            <form
+              action="#"
+              class="grid gap-5 md:gap-6 grid-cols-1 md:grid-cols-2"
+            >
+              <input
+                required
+                type="text"
+                placeholder="First Name"
+                class="border-2 rounded-[64px] pl-5 hover:border-[#a59f9f] w-full h-16"
+              />
+
+              <input
+                required
+                type="tel"
+                placeholder="Last Name"
+                class="border-2 rounded-[64px] pl-5 hover:border-[#a59f9f] w-full h-16"
+              />
+
+              <input
+                required
+                type="text"
+                placeholder="Phone Number"
+                class="border-2 rounded-[64px] pl-5 hover:border-[#a59f9f] w-full h-16"
+              />
+
+              <input
+                required
+                type="email"
+                placeholder="Email"
+                class="border-2 rounded-[64px] pl-5 hover:border-[#a59f9f] w-full h-16"
+              />
+
+              <textarea
+                name=""
+                id=""
+                placeholder="Write your message here"
+                class="border-2 rounded-[32px] hover:border-[#a59f9f] w-full md:col-span-2 h-60 pt-4 pl-5"
+              ></textarea>
+
+              <button
+                class="md:col-span-2 w-full justify-center flex gap-2 py-3 bg-green_primary border-green_primary rounded-[32px] mx-auto items-center hover:bg-[#c3c0a5] mt-2"
+              >
+                <span class="text-xl font-bold">View Details</span>
+
+                <div
+                  class="flex rounded-full h-8 w-8 justify-center items-center bg-[#1C1C1C] text-white"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2.3"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                    />
+                  </svg>
+                </div>
+              </button>
+            </form>
+          </div>
+          <!-- todo form end -->
         </div>
       </section>
     </main>
