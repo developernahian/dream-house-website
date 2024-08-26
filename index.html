@@ -263,13 +263,13 @@
           class="w-11/12 md:w-10/12 mx-auto flex flex-col md:flex-row py-8 md:py-20 justify-between"
         >
           <!-- todo left side -->
-        <!-- arrow -->
-        <div class="relative md:w-[48%]">
-          <img
-            class="hidden md:flex absolute -left-11 -top-14"
-            src="./assets/vector-arrow.png"
-            alt="vetcor-arrow"
-          />
+          <!-- arrow -->
+          <div class="relative md:w-[48%]">
+            <img
+              class="hidden md:flex absolute -left-11 -top-14"
+              src="./assets/vector-arrow.png"
+              alt="vetcor-arrow"
+            />
 
             <button
               class="mx-auto md:ml-0 flex font-bold text-secondary py-2 px-4 rounded-3xl gap-1 bg-white hover:bg-[#212121] hover:text-white"
@@ -641,14 +641,22 @@
             </div>
             <!-- todo tow -->
             <div
-              class="lg:col-span-4 bg-white flex items-center border rounded-2xl p-5"
+              class="lg:col-span-4 bg-white border rounded-2xl p-5"
             >
               <img src="./assets/img2.png" class="w-full h-full" alt="" />
             </div>
 
-            <!-- todo three -->
+            <!-- todo Hidden section -->
             <div
-              class="lg:col-span-3 bg-white flex justify-center items-center border rounded-2xl p-5"
+              class="lg:hidden lg:col-span-3 bg-white border rounded-2xl p-5 w-full"
+            >
+              <img src="./assets/img5.png" class="w-full h-full" alt="" />
+            </div>
+
+            <!-- todo three -->
+            <!-- BUG: -->
+            <div
+              class="hidden lg:block lg:col-span-3 bg-white border rounded-2xl p-5"
             >
               <img src="./assets/img3.png" class="w-full h-full" alt="" />
             </div>
@@ -699,13 +707,21 @@
               </div>
             </div>
 
+            <!-- todo Hidden section -->
+            <div
+              class="lg:hidden lg:col-span-3 bg-white border rounded-2xl p-5 w-full"
+            >
+              <img src="./assets/img3.png" class="w-full h-full" alt="" />
+            </div>
+
             <!-- todo five -->
             <div
-              class="lg:col-span-3 bg-white flex justify-center items-center border rounded-2xl p-5 w-full"
+              class="lg:col-span-3 bg-white border rounded-2xl p-5 w-full"
             >
               <img src="./assets/img5.png" class="w-full h-full" alt="" />
             </div>
           </div>
+
           <!-- todo Grid container END -->
         </div>
       </section>
