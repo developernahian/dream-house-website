@@ -929,104 +929,142 @@
       <!-- todo ========= FAQ Section ========== -->
       <section class="bg-body">
         <div class="w-11/12 md:w-10/12 mx-auto py-24">
+          <!-- todo button heading and title -->
+          <div class="flex flex-col items-center">
+            <!-- todo button main div -->
+            <div>
+              <button
+                class="mx-auto md:ml-0 flex font-bold text-secondary py-2 px-4 rounded-3xl gap-1 bg-green_teritary hover:bg-[#212121] hover:text-white"
+              >
+                <!-- todo svg -->
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                    />
+                  </svg>
+                </div>
+                <span>Rinterio News</span>
+              </button>
+            </div>
 
-
-                    <!-- todo button heading and title -->
-                    <div class="flex flex-col items-center">
-                      <!-- todo button main div -->
-                      <div>
-                        <button
-                          class="mx-auto md:ml-0 flex font-bold text-secondary py-2 px-4 rounded-3xl gap-1 bg-green_teritary hover:bg-[#212121] hover:text-white"
-                        >
-                          <!-- todo svg -->
-                          <div>
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke-width="1.5"
-                              stroke="currentColor"
-                              class="size-6"
-                            >
-                              <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
-                              />
-                            </svg>
-                          </div>
-                          <span>Rinterio News</span>
-                        </button>
-                      </div>
-          
-                      <h2
-                        class="text-3xl md:text-5xl text-primary font-extrabold pt-5 text-center"
-                      >
-                        Read Our Articles and News
-                      </h2>
-                      <p
-                        class="text-secondary pt-6 text-center lg:w-[55%] leading-relaxed"
-                      >
-                        The barn house captivates with its blend of rustic charm and
-                        modern sophistication, featuring weathered wood, sleek metal
-                        accents.
-                      </p>
-                    </div>
+            <h2
+              class="text-3xl md:text-5xl text-primary font-extrabold pt-5 text-center"
+            >
+              Read Our Articles and News
+            </h2>
+            <p
+              class="text-secondary pt-6 text-center lg:w-[55%] leading-relaxed"
+            >
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
+          </div>
 
           <!-- todo faq grid container -->
-          <div class="grid grid-cols-3 gap-10 pt-8">
-            <!-- todo left -->
-            <div class="">
-              <img src="./assets/faq.png" alt="" />
-            </div>
-            <!-- todo right -->
-            <div class="col-span-2 flex flex-col gap-4 my-auto">
-              <div class="drop-shadow-lg space-y-3">
+          <div class="hero">
+            <div class="hero-content flex-col lg:flex-row lg:gap-24 pt-8">
+              <img
+                src="./assets/faq.png"
+                class="w-3/4 lg:max-w-sm"
+                alt="FAQ Image"
+              />
+
+              <!-- todo Accordion div -->
+              <div class="space-y-3 drop-shadow-lg">
+                <!-- todo first question -->
                 <div class="collapse collapse-arrow bg-white">
                   <input type="radio" name="my-accordion-2" checked="checked" />
                   <div class="collapse-title text-xl font-medium">
-                    Click to open this one and close others
+                    What are the most important things I should know about
+                    riding a bike?
                   </div>
                   <div class="collapse-content">
-                    <p>hello</p>
-                  </div>
-                </div>
-                <div class="collapse collapse-arrow bg-white">
-                  <input type="radio" name="my-accordion-2" />
-                  <div class="collapse-title text-xl font-medium">
-                    Click to open this one and close others
-                  </div>
-                  <div class="collapse-content">
-                    <p>hello</p>
-                  </div>
-                </div>
-                <div class="collapse collapse-arrow bg-white">
-                  <input type="radio" name="my-accordion-2" />
-                  <div class="collapse-title text-xl font-medium">
-                    Click to open this one and close others
-                  </div>
-                  <div class="collapse-content">
-                    <p>hello</p>
+                    <p>
+                      Safety First! Always obey the rules of the road. Obey all
+                      traffic signals, signs, and laws. Get in the mindset of
+                      “driving” your bike—not just “riding” your bike. This will
+                      help you be a more focused and legally compliant bike
+                      rider.
+                    </p>
                   </div>
                 </div>
 
+                <!-- todo second question -->
                 <div class="collapse collapse-arrow bg-white">
                   <input type="radio" name="my-accordion-2" />
                   <div class="collapse-title text-xl font-medium">
-                    Click to open this one and close others
+                    How can I tell if my helmet is old and I need a new one?
                   </div>
                   <div class="collapse-content">
-                    <p>hello</p>
+                    <p>
+                      Safety First! Always obey the rules of the road. Obey all
+                      traffic signals, signs, and laws. Get in the mindset of
+                      “driving” your bike—not just “riding” your bike. This will
+                      help you be a more focused and legally compliant bike
+                      rider.
+                    </p>
+                  </div>
+                </div>
+                <!-- todo third question -->
+                <div class="collapse collapse-arrow bg-white">
+                  <input type="radio" name="my-accordion-2" />
+                  <div class="collapse-title text-xl font-medium">
+                    My bike has been in storage is it safe to ride?
+                  </div>
+                  <div class="collapse-content">
+                    <p>
+                      Safety First! Always obey the rules of the road. Obey all
+                      traffic signals, signs, and laws. Get in the mindset of
+                      “driving” your bike—not just “riding” your bike. This will
+                      help you be a more focused and legally compliant bike
+                      rider.
+                    </p>
                   </div>
                 </div>
 
+                <!-- todo fourth question -->
                 <div class="collapse collapse-arrow bg-white">
                   <input type="radio" name="my-accordion-2" />
                   <div class="collapse-title text-xl font-medium">
-                    Click to open this one and close others
+                    What rules should I follow when riding my bike?
                   </div>
                   <div class="collapse-content">
-                    <p>hello</p>
+                    <p>
+                      Safety First! Always obey the rules of the road. Obey all
+                      traffic signals, signs, and laws. Get in the mindset of
+                      “driving” your bike—not just “riding” your bike. This will
+                      help you be a more focused and legally compliant bike
+                      rider.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- todo fifth question -->
+                <div class="collapse collapse-arrow bg-white">
+                  <input type="radio" name="my-accordion-2" />
+                  <div class="collapse-title text-xl font-medium">
+                    What are the key things to check before starting the bike
+                    each time?
+                  </div>
+                  <div class="collapse-content">
+                    <p>
+                      Safety First! Always obey the rules of the road. Obey all
+                      traffic signals, signs, and laws. Get in the mindset of
+                      “driving” your bike—not just “riding” your bike. This will
+                      help you be a more focused and legally compliant bike
+                      rider.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1231,3 +1269,5 @@
     </footer>
   </body>
 </html>
+
+I am Nahian hello I am Nahian
