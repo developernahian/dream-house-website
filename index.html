@@ -263,12 +263,13 @@
           class="w-11/12 md:w-10/12 mx-auto flex flex-col md:flex-row py-8 md:py-20 justify-between"
         >
           <!-- todo left side -->
-          <div class="relative md:w-[48%]">
-            <img
-              class="hidden md:flex absolute -left-11 -top-14"
-              src="./assets/vector.png"
-              alt=""
-            />
+        <!-- arrow -->
+        <div class="relative md:w-[48%]">
+          <img
+            class="hidden md:flex absolute -left-11 -top-14"
+            src="./assets/vector-arrow.png"
+            alt="vetcor-arrow"
+          />
 
             <button
               class="mx-auto md:ml-0 flex font-bold text-secondary py-2 px-4 rounded-3xl gap-1 bg-white hover:bg-[#212121] hover:text-white"
@@ -1034,10 +1035,8 @@
 
     <!-- todo ========== Footer ========== -->
     <footer class="bg-foot">
-      <div class="w-11/12 md:w-10/12 mx-auto py-24">
+      <div class="w-11/12 md:w-10/12 mx-auto py-20">
         <div class="flex flex-col items-center">
-
-
           <!-- todo logo -->
           <div class="flex items-center gap-2">
             <div
@@ -1063,71 +1062,51 @@
             </h2>
           </div>
 
-          <p class="text-teritary font-medium mt-4 lg:w-4/6 text-center">
+          <p class="text-teritary font-medium mt-6 lg:w-3/5 text-center">
             The barn house captivates with its blend of rustic charm and modern
             sophistication, featuring weathered wood, sleek metal accents.
           </p>
 
-          
-
           <div
-            class="mt-8 flex flex-col sm:flex-row lg:space-x-32 md:space-x-20 sm:space-x-16 text-center space-y-3  text-lg font-medium text-[#E9E9E9]"
+            class="mt-6 flex flex-col sm:flex-row lg:space-x-32 md:space-x-20 sm:space-x-16 text-center text-lg font-medium text-[#E9E9E9]"
           >
-            <a href="#" class="">Home</a>
-            <a href="#" class="">Service</a>
-            <a href="#" class="">Portfolio</a>
-            <a href="#" class="">Blogs</a>
-            <a href="#" class="">Contact Us</a>
+            <a href="#" class="pt-2">Home</a>
+            <a href="#" class="pt-2">Service</a>
+            <a href="#" class="pt-2">Portfolio</a>
+            <a href="#" class="pt-2">Blogs</a>
+            <a href="#" class="pt-2">Contact Us</a>
           </div>
 
+          <!-- todo button -->
 
-
-
-<!-- todo button -->
-
-
-
-
+          <!--  class="md:col-span-2 w-full justify-center flex gap-2 py-3 bg-green_primary border-green_primary rounded-[32px] mx-auto items-center hover:bg-[#D2D2D2] mt-2 border-2 border-[#D2D2D2] hover:border-teritary" -->
 
           <div class="w-full sm:w-52 mx-auto">
-
-            
             <button
-            class="w-full mt-10 justify-center flex gap-2 py-3 bg-green_primary border-green_primary rounded-[32px] mx-auto items-center hover:bg-[#212121] hover:text-white"
-          >
-            <span class="text-xl font-bold">Book Consult</span>
-
-            <div
-              class="flex rounded-full h-8 w-8 justify-center items-center bg-[#1C1C1C] text-white"
+              class="w-full mt-7 sm:mt-10 justify-center flex gap-2 py-2 bg-green_primary border-green_primary rounded-[32px] mx-auto items-center hover:bg-[#D2D2D2]"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="2.3"
-                stroke="currentColor"
-                class="size-6"
+              <span class="text-lg font-bold">Book Consult</span>
+
+              <div
+                class="flex rounded-full h-7 w-7 justify-center items-center bg-[#1C1C1C] text-white"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
-                />
-              </svg>
-            </div>
-          </button>
-
-
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2.3"
+                  stroke="currentColor"
+                  class="size-5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                  />
+                </svg>
+              </div>
+            </button>
           </div>
-
-
-
-
-
-
-
-
-
         </div>
       </div>
     </footer>
